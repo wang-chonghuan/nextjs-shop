@@ -1,8 +1,8 @@
-npx create-next-app nextjs-shop 
-git config user.name "wang-chonghuan" 
-git config user.email "wangchonghuan@gmail.com" 
-npm install @sanity/client @sanity/image-url @stripe/stripe-js canvas-confetti stripe 
-npm install react-dom react-hot-toast react-icons react-tabs 
+npx create-next-app nextjs-shop  
+git config user.name "wang-chonghuan"  
+git config user.email "wangchonghuan@gmail.com"  
+npm install @sanity/client @sanity/image-url @stripe/stripe-js canvas-confetti stripe  
+npm install react-dom react-hot-toast react-icons react-tabs  
 npm install eslint eslint-config-airbnb eslint-config-next eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks sass --save-dev 
 
 
