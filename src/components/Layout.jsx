@@ -1,5 +1,8 @@
 import React from "react";
 import Head from "next/head";
+import NavBar from "./NavBar";
+import DemoBanner from "./DemoBanner";
+import Footer from "./Footer";
 
 /*
 关于 /favicon 目录：
@@ -47,11 +50,15 @@ const Layout = ({ children }) => {
         <meta name="theme-color" content="#ffffff" />
       </Head>
       <header>
+        <DemoBanner />
         <NavBar />
       </header>
       <div className="layout">
         <main className="main-container">{children}</main>
       </div>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };

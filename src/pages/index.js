@@ -34,7 +34,6 @@ const Home = () => (
         page.
       </p>
     </div>
-
     <PerfectBanner />
     <Newsletter />
   </div>
